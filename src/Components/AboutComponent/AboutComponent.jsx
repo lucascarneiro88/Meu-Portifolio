@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function AboutComponent() {
   return (
     <div>
-      <h1>Sobre mim</h1>
+      <p>
+        "A vida é uma jornada de aprendizado constante e resolução de problemas.
+        Com uma abordagem tranquila e uma atitude colaborativa, estou sempre
+        pronto para contribuir com positividade em qualquer equipe e projeto."
+      </p>
     </div>
-  )
+  );
 }
 
-export default AboutComponent
+export default AboutComponent;
