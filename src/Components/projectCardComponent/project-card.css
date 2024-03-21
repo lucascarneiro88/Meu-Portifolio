@@ -1,0 +1,7 @@
+.project-card {
+    width: calc(33.33% - 20px); /* Define a largura de cada cartão */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; /* Adiciona margem inferior para separar as linhas */
+}
