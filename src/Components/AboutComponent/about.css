@@ -1,0 +1,11 @@
+.about {
+    margin-top: 15rem;
+    margin-left: 200px;
+}
+
+p {
+    text-indent: 20px; 
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #FFF;
+}
