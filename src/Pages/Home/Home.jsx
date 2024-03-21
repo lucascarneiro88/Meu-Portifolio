@@ -1,19 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AboutComponent from "../../Components/AboutComponent/AboutComponent";
+import About from "../../components/aboutComponent/About";
 
-
+import "./home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Lucas Carneiro dos Santos</h1>
-      <h2>FullStack Developer</h2>
-      <div>
-        <AboutComponent/>
-      </div>
-      
-      <ul>
+    <div className="home-container">
+      <ul className="links">
         <li>
           <Link to="/projects">Projects</Link>
         </li>
@@ -24,6 +18,14 @@ function Home() {
           <Link to="/info">Info</Link>
         </li>
       </ul>
+      <h1 className="name">
+        Lucas Carneiro
+        <br /> dos Santos
+      </h1>
+      <h2 className="stack">FullStack Developer</h2>
+      <div className="about">
+        <About />
+      </div>
     </div>
   );
 }
