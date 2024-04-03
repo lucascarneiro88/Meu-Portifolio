@@ -1,14 +1,17 @@
 import React from 'react';
-import projectsData from '../../data/projectsData';
-import ProjectCard from '../../components/projectCardComponent/ProjectCard';
+import ProjectCard from '../../components/ProjectCardComponent/ProjectCard';
+import NavBar from '../../components/NavBarComponent/NavBar';
+import projectsData from '../../data/projectsData'; 
 
-const Projects = () => {
+function Projects() {
   return (
     <div>
-      <h1>Meus Projetos</h1>
-      {projectsData.map(project => (
-        <ProjectCard key={project.id} project={project} />
-      ))}
+      <NavBar pageTitle="Meus Projetos" /> 
+      <div className="card-container">
+        {projectsData.map(project => ( 
+          <ProjectCard key={project.id} project={project} /> 
+        ))}
+      </div>
     </div>
   );
 }
