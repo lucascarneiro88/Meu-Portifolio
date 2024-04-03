@@ -1,7 +1,65 @@
-.project-card {
-    width: calc(33.33% - 20px); /* Define a largura de cada cartão */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px; /* Adiciona margem inferior para separar as linhas */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  margin-top: 40px; 
+}
+
+.project-card-container {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  margin-top: 100px;
+  margin-bottom: 2rem; 
+  margin-left: 15px;
+  margin-right: 2rem; 
+}
+
+.project-card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn a {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  background-color: rgb(129, 142, 216);
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+}
+
+.btn a:hover {
+  background: rgba(20, 241, 68, 0.637);
+  transform: scale(1.1);
 }
