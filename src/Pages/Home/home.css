@@ -72,10 +72,10 @@
 .logo-csharp {
     position: absolute;
     top: 810px; 
-    right: 130px; 
+    right: 150px; 
 }
 .logo-csharp img {
-    width: 80px;
+    width: 60px;
 }
 
 
@@ -86,5 +86,15 @@
 }
 
 .logo-react img {
-    width: 80px;
+    width: 55px;
+}
+
+.logo-js {
+    position: absolute;
+    top: 815px;
+    right: 300px; 
+}
+
+.logo-js img {
+    width: 50px;
 }
