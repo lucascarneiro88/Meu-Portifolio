@@ -9,8 +9,14 @@
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
+    transition: opacity 0.5s ease-in-out; 
 
 }
+ 
+  .background-loaded {
+    opacity: 1; /* Define a opacidade como 1 quando a imagem estiver carregada */
+  }
+  
 
 .name {
     font-family: Arial, sans-serif;
