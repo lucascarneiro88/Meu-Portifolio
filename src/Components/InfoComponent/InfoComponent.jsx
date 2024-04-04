@@ -8,7 +8,7 @@ function InfoComponent({ pageTitle }) {
       <h1>{pageTitle}</h1> 
       <section>
        <div className='foto-perfil'>
-       <img src="/public/img/foto-perfil/foto-perfil.jpg" alt="Minha Foto" />
+       <img src="/img/foto-perfil/foto-perfil.jpg" alt="Minha Foto" />
        </div>
        
       </section>
