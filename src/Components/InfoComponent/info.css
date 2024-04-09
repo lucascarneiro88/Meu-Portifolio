@@ -1,53 +1,51 @@
+.page-container-info {
+  min-height: 100vh;
+}
+
 .info-container {
-    margin-top: 100px; 
-    margin-bottom: 50px; 
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  }
   
-  .info-container h1 {
-    font-size: 24px; 
-    margin-bottom: 20px; 
-  }
-  
-  .info-container h2 {
-    font-size: 20px; 
-    margin-top: 30px; 
-    margin-bottom: 10px; 
-  }
-  
-  .info-container img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin-bottom: 20px; 
-  }
-  
-  .info-container ul {
-    list-style: none; 
-    margin: 0; 
-  }
-  
-  .info-container ul li {
-    margin-bottom: 5px;
-   }
-  
-  .info-container ul ul {
-    margin-left: 20px; 
-  }
-  
-  .info-container a {
-    color: #007bff; 
-    text-decoration: none; 
-  }
-  
-  .info-container a:hover {
-    text-decoration: underline; 
-  }
-  
-  .foto-perfil img{
-    width: 100px;
-    border-radius: 80px;
-  }
+  margin-bottom: 50px; 
+  padding: 20px;
+}
+
+.info-container h1 {
+  margin-top: 100px;
+  font-size: 24px; 
+  margin-bottom: 20px; 
+}
+
+.info-container h2 {
+  font-size: 20px; 
+  margin-top: 30px; 
+  margin-bottom: 10px; 
+}
+
+.info-container img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin-bottom: 20px; 
+}
+
+.info-container ul {
+  list-style: none; 
+  margin: 0; 
+}
+
+.info-container ul li {
+  margin-bottom: 5px;
+}
+
+.info-container ul ul {
+  margin-left: 20px; 
+}
+
+.info-container a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.foto-perfil img {
+  width: 100px;
+  border-radius: 80px;
+}
