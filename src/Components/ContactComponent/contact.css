@@ -1,8 +1,21 @@
+.page-container-contact {
+  min-height: calc(100vh - 56px); /* Considerando a altura do navbar (56px) */
+}
+
 .contact-container {
-    margin-top: 300px; 
-  }
-  
-  .contact-item {
-    margin-left: 200px;
-  }
-  
+  margin-top: 0; /* Remover a margem superior */
+  padding: 20px; /* Adicionando um padding interno para espaçamento */
+}
+
+.contact-item {
+  margin-bottom: 10px; /* Adicionando espaçamento entre os itens de contato */
+}
+
+.contact-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
