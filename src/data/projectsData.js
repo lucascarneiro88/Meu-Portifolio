@@ -12,6 +12,7 @@ const projectsData = [
       "/img/logo-stacks/logo-react.png",
       "/img/logo-stacks/logo-bootstrap.png",
       "/img/logo-stacks/logo-css.png",
+      
      
     ]
     },
