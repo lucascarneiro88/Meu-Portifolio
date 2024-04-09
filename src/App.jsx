@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useContext } from "react";
+import { ThemeContext } from "./context/ThemeContext.jsx";
+import "./index.css";
 
 import Home from "./pages/Home/Home.jsx";
 import Info from "./pages/Info/Info.jsx";
@@ -7,14 +10,48 @@ import Projects from "./pages/Projects/Projects.jsx";
 import Error from "./pages/Error/Error.jsx";
 
 function App() {
+  // Consumindo o contexto de tema
+  const { theme } = useContext(ThemeContext);
+
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/info" element={<Info/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/Projects" element={<Projects/>}/>
-        <Route path="*" element={<Error/>}/>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/info"
+          element={
+            <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
+              <Info />
+            </div>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
+              <Contact />
+            </div>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
+              <Projects />
+            </div>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
+              <Error />
+            </div>
+          }
+        />
       </Routes>
     </Router>
   );
