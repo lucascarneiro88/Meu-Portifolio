@@ -12,9 +12,13 @@ const projectsData = [
       "/img/logo-stacks/logo-react.png",
       "/img/logo-stacks/logo-bootstrap.png",
       "/img/logo-stacks/logo-css.png",
-      
-     
-    ]
+    ],
+    additionalInfo: {
+      date: "2022-04-10",
+      author: "Lucas Carneiro",
+      bibliotecas:"dgdfggfgfgdfgff",
+      tecnologias:"dgdfggfgfgdfgff",
+    },
     },
     {
       id: 2,
@@ -28,9 +32,12 @@ const projectsData = [
         "/img/logo-stacks/logo-js.png",
         "/img/logo-stacks/logo-react.png",
         "/img/logo-stacks/logo-css.png",
-       
-       
-      ]
+      ],  
+       additionalInfo: {
+        date: "2022-04-10",
+        author: "Lucas Carneiro",
+
+      },
     },
     {
    
@@ -46,8 +53,13 @@ const projectsData = [
           "/img/logo-stacks/logo-react.png",
           "/img/logo-stacks/logo-css.png",
          
-        ]
+        ],   
+        additionalInfo: {
+          date: "2022-04-10",
+          author: "Lucas Carneiro",
+        },
       },
+      
   ];
   
   export default projectsData;
