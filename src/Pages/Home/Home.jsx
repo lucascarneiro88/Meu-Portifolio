@@ -17,11 +17,8 @@ function Home() {
           <Link to="/info">Info</Link>
         </li>
       </ul>
-      <h1 className="name">
-        Lucas Carneiro
-        <br /> dos Santos
-      </h1>
-      <h2 className="stack">FullStack Developer</h2>
+      <h1 className="name"> Lucas Carneiro dos Santos</h1>
+      <h2 className="stack">Fullstack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developer</h2>
       <div className="about">
         <About />
       </div>
