@@ -5,10 +5,10 @@ function About() {
   return (
     <div className="about-paragrafo">
       <p>
-        "A vida é uma jornada de aprendizado constante<br /> e resoluções de problemas.
+        "A vida é uma jornada de aprendizado constante e resoluções de problemas.
         <br />
-        Com uma abordagem tranquila <br />e uma atitude colaborativa,
-      estou   <br /> sempre pronto para contribuir<br /> com positividade em qualquer
+        Com uma abordagem tranquila e uma atitude colaborativa,
+      estou    sempre pronto<br /> para contribuir com positividade em qualquer
         equipe e projeto."
       </p>
     </div>
