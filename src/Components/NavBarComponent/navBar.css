@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to right, #4b4b4b, #1e1e1e); 
+    background:black; 
     color: #fff;
     padding: 20px;
     z-index: 1000;
@@ -16,6 +16,15 @@
     margin: 0;
     font-size: 35px;
   }
+  .page-title {
+    /* Propriedades de estilo aqui */
+    font-size: 24px;
+    color: #ca1414;
+    /* Outras propriedades de estilo conforme necessário */
+}
+
+
+
   
   .links-nav {
     list-style: none;
@@ -42,3 +51,4 @@
     text-decoration: underline; 
   }
   
+

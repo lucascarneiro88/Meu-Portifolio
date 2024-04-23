@@ -1,3 +1,4 @@
+/* Estilos para o modal */
 .page-container {
   min-height: 100vh;
 }
@@ -5,7 +6,7 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; 
+  /* justify-content: flex-start;  */
   margin-top: 40px; 
 }
 
@@ -86,4 +87,4 @@ h2, p {
 .btn a:hover {
   background: rgba(20, 241, 68, 0.637);
   transform: scale(1.1);
-}
+} 

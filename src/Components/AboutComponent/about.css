@@ -1,11 +1,14 @@
 .about {
-    margin-top: 15rem;
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 .about-paragrafo p {
+    text-align: center; 
     text-indent: 20px; 
     font-size: 30px;
     color: #FFF;
-   
+    margin-top:350px;
 }
